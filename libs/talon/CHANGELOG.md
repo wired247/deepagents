@@ -1,5 +1,33 @@
 # Changelog
 
+## [0.0.7](https://github.com/wired247/deepagents/compare/deepagents-talon==0.0.6...deepagents-talon==0.0.7) (2026-09-04)
+
+
+### Features
+
+* **code,talon:** require Python 3.12 or greater ([#5603](https://github.com/wired247/deepagents/issues/5603)) ([04de43e](https://github.com/wired247/deepagents/commit/04de43e05adcbd38f1022f1fafe93f6748c2a032))
+* **talon:** add a current_time tool ([#6065](https://github.com/wired247/deepagents/issues/6065)) ([0fe5f94](https://github.com/wired247/deepagents/commit/0fe5f942d6359f956614584f37137bbba78ab589))
+* **talon:** add channel debug logging ([#5983](https://github.com/wired247/deepagents/issues/5983)) ([1c14626](https://github.com/wired247/deepagents/commit/1c14626d068ee5e1724d53dc17927d37987ebe36))
+* **talon:** add Discord channel adapter ([#5992](https://github.com/wired247/deepagents/issues/5992)) ([67c6c17](https://github.com/wired247/deepagents/commit/67c6c17a316c84a6f21eafb95f12e56eedf11e7e))
+* **talon:** add opt-in agent activity logging ([#5984](https://github.com/wired247/deepagents/issues/5984)) ([3a0f68c](https://github.com/wired247/deepagents/commit/3a0f68ccd08166394e02fd736869482be5759f83))
+* **talon:** add timezone-aware wall-clock cron schedules ([#6062](https://github.com/wired247/deepagents/issues/6062)) ([afff4f8](https://github.com/wired247/deepagents/commit/afff4f8841bcc370d01c2739f53e882a92ef5c6a))
+* **talon:** authorize MCP servers through channels ([#6073](https://github.com/wired247/deepagents/issues/6073)) ([76dd223](https://github.com/wired247/deepagents/commit/76dd22334c95083449cc858dec245f98a383bba4))
+* **talon:** interrupt active turns for new messages ([#6023](https://github.com/wired247/deepagents/issues/6023)) ([f93752f](https://github.com/wired247/deepagents/commit/f93752f855836b2af358a7c71c35a9f774af58e3))
+* **talon:** keep typing indicator alive during long agent turns ([#5993](https://github.com/wired247/deepagents/issues/5993)) ([e0d0afa](https://github.com/wired247/deepagents/commit/e0d0afa18a3b8209f20c24cfda2ad766e476a102))
+* **talon:** support GitHub MCP device authentication ([#6079](https://github.com/wired247/deepagents/issues/6079)) ([d91ec7d](https://github.com/wired247/deepagents/commit/d91ec7d0a7b8d0a703fa16b5ee4237c84d10526c))
+* **talon:** support Slack MCP OAuth login ([#6078](https://github.com/wired247/deepagents/issues/6078)) ([f8b137e](https://github.com/wired247/deepagents/commit/f8b137ef22bf81f8178fe490f6dad7621f161a16))
+
+
+### Bug Fixes
+
+* **talon:** drop extract-zip from the WhatsApp bridge dependency tree ([#5924](https://github.com/wired247/deepagents/issues/5924)) ([7301d01](https://github.com/wired247/deepagents/commit/7301d01e483d0b76745c725134ec09db82f38856))
+* **talon:** improve channel reconnect resilience ([#6040](https://github.com/wired247/deepagents/issues/6040)) ([54fe91f](https://github.com/wired247/deepagents/commit/54fe91fd3745e285899961bfe74380c837674164))
+* **talon:** migrate MCP discovery to `discover_mcp_config_sources` ([#5803](https://github.com/wired247/deepagents/issues/5803)) ([5cdd977](https://github.com/wired247/deepagents/commit/5cdd97730708b0480cb7d32792717dcdcd02f4ea))
+* **talon:** omit empty optional MCP arguments ([#6077](https://github.com/wired247/deepagents/issues/6077)) ([632f2c9](https://github.com/wired247/deepagents/commit/632f2c941b877eff70407606b58e393212448a26))
+* **talon:** preserve WhatsApp quoted message context ([#6025](https://github.com/wired247/deepagents/issues/6025)) ([03436b3](https://github.com/wired247/deepagents/commit/03436b369c0324498602fe6b7918cf36f3629d76))
+* **talon:** restore WhatsApp bridge compatibility ([#5999](https://github.com/wired247/deepagents/issues/5999)) ([568b398](https://github.com/wired247/deepagents/commit/568b398df9b9f4f3464b4107c0ef9001f530d728))
+* **talon:** restrict WhatsApp replies to self-chat ([#6010](https://github.com/wired247/deepagents/issues/6010)) ([40359ec](https://github.com/wired247/deepagents/commit/40359ec683eaff3a67b39d3f6b3003e70db9ec4d))
+
 ## [0.0.6](https://github.com/langchain-ai/deepagents/compare/deepagents-talon==0.0.5...deepagents-talon==0.0.6) (2026-08-28)
 
 ### Bug Fixes
